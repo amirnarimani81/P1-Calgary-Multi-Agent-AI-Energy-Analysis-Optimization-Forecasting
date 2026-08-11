@@ -146,8 +146,20 @@ AI Executive Energy Consultant
 <h2>8.2 AI Analysis</h2>
 <hr>
 <h2>8.2.1 AI Analysis, Home & Data Overview</h2>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+<p align="center">
+  <a href="https://youtu.be/qsIOossIpnU" target="_blank">
+    <img src="https://img.youtube.com/vi/qsIOossIpnU/maxresdefault.jpg"
+         width="900"
+         alt="Click to Watch Project Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/qsIOossIpnU" target="_blank">
+    <strong>▶ Click to watch the project demo</strong>
+  </a>
+</p>
+
 <p>This section builds a <strong>Streamlit-based AI Data Analysis Dashboard</strong> that allows users to upload CSV or Excel datasets, preview the data, analyze dataset structure, data types, missing values, duplicates, descriptive statistics, outliers, and time coverage, and then uses <strong>Ollama/Llama 3.2</strong> to generate an AI-powered data quality assessment, data-cleaning and feature-engineering recommendations, forecasting readiness evaluation, and business insights.</p>
 <h3>Key Results</h3>
 <ul>
@@ -214,11 +226,37 @@ result = pd.read_sql("SELECT season, AVG(price) AS avg_price, COUNT(*) AS observ
 <p>The analysis shows that Alberta electricity demand is relatively stable and predictable, averaging around <strong>4,500 MW</strong>, while electricity prices are more volatile due to market conditions, supply constraints, and weather impacts.</p>
 <p>This <strong>AI-powered Energy Market Intelligence platform</strong>, built with Python and Streamlit, combines <strong>Statistical Analysis, EDA, and Gas Market Analysis</strong> to evaluate demand, prices, volatility, correlations, and market behavior. <strong>Ollama/Llama 3.2</strong> transforms these results into actionable insights for forecasting, risk management, trading, procurement, and cost optimization.</p>
 <h2 align="center">Gas Market Behavior</h2>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+
+<p align="center">
+  <a href="https://youtu.be/ui9xyaqcE5Q" target="_blank">
+    <img src="https://img.youtube.com/vi/ui9xyaqcE5Q/maxresdefault.jpg"
+         width="900"
+         alt="Gas Market Behavior Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/ui9xyaqcE5Q" target="_blank">
+    <strong>▶ Click  to watch the Gas Market Analysis</strong>
+  </a>
+</p>
+
 <h2 align="center">Statistical Summary & Market Risk Analysis</h2>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+
+<p align="center">
+  <a href="https://youtu.be/PMHINOGIkWw" target="_blank">
+    <img src="https://img.youtube.com/vi/PMHINOGIkWw/maxresdefault.jpg"
+         width="900"
+         alt="Statistical Summary & Market Risk Analysis Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/PMHINOGIkWw" target="_blank">
+    <strong>▶ Click to watch the analysis</strong>
+  </a>
+</p>
+
 <h3>Key Results</h3>
 <ul>
 <li><strong>Statistical Summary:</strong> Average electricity demand is <strong>4,559 MW</strong> with a <strong>CV of 0.15</strong>; electricity prices average <strong>104.67 CAD/MWh</strong> with <strong>15.97 CAD/MWh</strong> volatility.</li>
@@ -266,8 +304,20 @@ if st.button("Generate AI Gas Market Report"):
 <p><strong>Code Reference:</strong> Streamlit-based gas market analysis combines statistical risk metrics, hourly and seasonal patterns, and <strong>Ollama/Llama 3.2</strong> for AI-driven market and procurement insights.</p>
 <hr>
 <h2>8.2.4 AI Analysis, Feature</h2>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+<p align="center">
+  <a href="https://youtu.be/-HVTHfEZzKw" target="_blank">
+    <img src="https://img.youtube.com/vi/-HVTHfEZzKw/maxresdefault.jpg"
+         width="900"
+         alt="Project Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/-HVTHfEZzKw" target="_blank">
+    <strong>▶ Click to watch the project demo</strong>
+  </a>
+</p>
+
 <p>This code builds a <strong>Streamlit-based Energy Market Intelligence application</strong> that performs feature engineering on energy data by creating <strong>lag, rolling-statistics, change, volatility, and spike-detection features</strong>, visualizes demand and price patterns, identifies extreme demand and price events, and uses <strong>Ollama/Llama 3.2</strong> to provide AI-powered energy-market insights and answer questions about demand trends, volatility, spikes, and overall market conditions.</p>
 <h4>Feature Engineering</h4>
 <table border="1" cellpadding="5">
@@ -322,16 +372,52 @@ def engineer_features(df):
 <p><strong>Workflow:</strong> Upload → Analyze → Interpret → Assess Risk → Recommend → Report → Export JSON</p>
 <h2>Time Series Energy Market Analysis</h2>
 <p>Interactive analysis of electricity prices, energy demand, and market trends across hourly, weekly, monthly, and yearly time periods.</p>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+<p align="center">
+  <a href="https://youtu.be/N3-3jDsurIs" target="_blank">
+    <img src="https://img.youtube.com/vi/N3-3jDsurIs/maxresdefault.jpg"
+         width="900"
+         alt="Project Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/N3-3jDsurIs" target="_blank">
+    <strong>▶ Click to watch the project demo</strong>
+  </a>
+</p>
+
 <h2>Seasonal Energy Market Analysis</h2>
 <p>Analyze seasonal patterns in electricity prices, energy demand, peak load, temperature impacts, and energy costs to identify market trends, risks, and cost optimization opportunities.</p>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+<p align="center">
+  <a href="https://youtu.be/xfMUES-tqhs" target="_blank">
+    <img src="https://img.youtube.com/vi/xfMUES-tqhs/maxresdefault.jpg"
+         width="900"
+         alt="Project Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/xfMUES-tqhs" target="_blank">
+    <strong>▶ Click to watch the project demo</strong>
+  </a>
+</p>
+
 <h2>Behavioral Energy Market Analysis</h2>
 <p>Analyze hourly and weekly demand behavior, electricity price patterns, peak-cost periods, gas-to-electricity relationships, and demand-price interactions to identify consumption patterns, cost drivers, and operational opportunities.</p>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+<p align="center">
+  <a href="https://youtu.be/t1Unl_RLVrs" target="_blank">
+    <img src="https://img.youtube.com/vi/t1Unl_RLVrs/maxresdefault.jpg"
+         width="900"
+         alt="Project Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/t1Unl_RLVrs" target="_blank">
+    <strong>▶ Click to watch the project demo</strong>
+  </a>
+</p>
+
 <h3>Key Results</h3>
 <ul>
 <li><strong>Price:</strong> ~105 CAD/MWh with relatively stable pricing.</li>
@@ -358,8 +444,20 @@ st.download_button(label="Download Analysis JSON", data=json_results, file_name=
 <p><strong>Code Reference:</strong> Streamlit AI analysis, time-series and seasonal analysis with LLM interpretation, plus EDA and supporting statistical analysis documented in the Jupyter Notebook.</p>
 <hr>
 <h2>8.2.5 AI Analysis, Statistical Analysis</h2>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+<p align="center">
+  <a href="https://youtu.be/t1Unl_RLVrs" target="_blank">
+    <img src="https://img.youtube.com/vi/t1Unl_RLVrs/maxresdefault.jpg"
+         width="900"
+         alt="Project Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/t1Unl_RLVrs" target="_blank">
+    <strong>▶ Click to watch the project demo</strong>
+  </a>
+</p>
+
 <h3>AI Statistical Analysis & ANOVA</h3>
 <p>The platform uses <strong>LLM-powered statistical interpretation</strong> with <strong>Llama 3.2</strong> to analyze energy-market results and generate executive insights, risk assessments, forecasting guidance, and business recommendations.</p>
 <p>Statistical modules include <strong>Correlation, Regression, ANOVA, and Chi-Square</strong>. ANOVA specifically tests whether energy metrics differ significantly across selected categorical groups using <strong>F-statistics and p-values</strong>.</p>
@@ -413,8 +511,20 @@ Risk • Forecasting • Procurement • Business Insights
   "best_buy_hour": 4,
   "best_sell_hour": 18}
 </pre>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+<p align="center">
+  <a href="https://youtu.be/E9pLfNE92_g" target="_blank">
+    <img src="https://img.youtube.com/vi/E9pLfNE92_g/maxresdefault.jpg"
+         width="900"
+         alt="Project Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/E9pLfNE92_g" target="_blank">
+    <strong>▶ Click to watch the project demo</strong>
+  </a>
+</p>
+
 <h3>Key Results</h3>
 <ul>
 <li><strong>Anomalies:</strong> 602 price anomalies detected, representing ~1.99% of observations.</li>
@@ -432,7 +542,21 @@ Risk • Forecasting • Procurement • Business Insights
 <hr>
 <h2>8.2.8 AI Analysis, ML & Forecasting</h2>
 <li><b>Forecasting & Business Impact:</b> Random Forest, Gradient Boosting, and XGBoost are evaluated using MAE, RMSE, and R², with feature importance, prediction comparisons, future forecasts, and LLM-based recommendations. <strong>Gradient Boosting</strong> performed best by capturing non-linear relationships through lagged values, rolling means, and natural gas usage, supporting more accurate forecasting, optimized procurement, and cost reduction.</li>
-<p align="center"><a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank"><img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" width="900" alt="Machine Learning Project Demo"></a></p>
+
+<p align="center">
+  <a href="https://youtu.be/chxyjXhYVvw" target="_blank">
+    <img src="https://img.youtube.com/vi/chxyjXhYVvw/maxresdefault.jpg"
+         width="900"
+         alt="Machine Learning Project Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/chxyjXhYVvw" target="_blank">
+    <strong>▶ Click to watch the Machine Learning project demo</strong>
+  </a>
+</p>
+
 <p align="center"><strong>Machine Learning Models:</strong> Random Forest (RF), Gradient Boosting (GB), and XGBoost for energy prediction and performance comparison.</p>
 <p>This module applies <strong>ARIMA, SARIMA, LSTM, and RNN</strong> models for energy price and demand forecasting. It includes <strong>ADF stationarity testing, ACF/PACF analysis, seasonal decomposition, model performance comparison</strong>, and <strong>AI-powered forecasting insights</strong>.</p>
 <ul>
@@ -473,8 +597,20 @@ def calculate_financial_metrics(df, monthly_consumption, investment_cost):
 <p><strong>Business Impact:</strong> The platform connects energy-market analytics with financial decision-making, helping organizations identify cost-saving opportunities, evaluate investments, and optimize procurement strategies.</p>
 <hr>
 <h2>9. Multi Agent AI Energy Consultant (LLM + RAG + Multi-Agent System)</h2>
-<p align="center"><a href="https://youtu.be/" target="_blank"><img src="https://img.youtube.com/vi//maxresdefault.jpg" width="900" alt="Project Demo"></a></p>
-<p align="center"><a href="https://youtu/" target="_blank"><img src="assets/demo_thumbnail.png" width="900" alt="Project Demonstration"></a></p>
+<p align="center">
+  <a href="https://youtu.be/bra5BKrzdTw" target="_blank">
+    <img src="https://img.youtube.com/vi/bra5BKrzdTw/maxresdefault.jpg"
+         width="900"
+         alt="Project Demo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/bra5BKrzdTw" target="_blank">
+    <strong>▶ Click to watch the project demo</strong>
+  </a>
+</p>
+
 <div>
 <h2>Multi Agent AI Energy Consultant — What It Shows & Does</h2>
 <p>The AI Energy Consultant provides a natural-language Q&amp;A interface for analyzing energy-market data and generating data-driven recommendations.</p>
