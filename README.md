@@ -17,7 +17,7 @@
 <li>Data Sources</li>
 <li>System Architecture</li>
 <li>Technical Implementation<ul><li>Data Engineering & ETL Pipeline</li><li>AI Analytics Layer<ul><li>Data Preview</li><li>Exploratory Data Analysis (EDA) & Price</li><li>Seasonal and Time series</li><li>Feature Engineering (Lag Features, Rolling Statistics, Volatility Indicators)</li><li>Statistical Intelligence</li><li>Anomaly Detection, Price Volatility, Risk &amp; Spark Spread Analysis</li><li>SQL Intelligence</li><li>Machine Learning & Forecasting</li><li>Financial & Investment Analysis</li></ul></li></ul></li>
-<li>Multi Agent AI Energy Consultant (LLM + RAG + Multi-Agent System)</li>
+<li>Multi Agent AI Energy Consultant (LLM +Memory+ Multi-Agent System)</li>
 <li>Results & Business Insights</li>
 <li>Technologies</li>
 <li>Future Improvements</li>
